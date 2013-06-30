@@ -1,0 +1,41 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StoreLocator.WebUI/Models/StoreSearchResult.cs">
+    <Files>
+      <File FileName="StoreLocator.WebUI/Models/StoreSearchResult.cs" Line="25" Column="1" />
+      <File FileName="StoreLocator.WebUI/Models/StoreLocation.cs" Line="22" Column="1" />
+      <File FileName="StoreLocator.WebUI/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="StoreLocator.WebUI/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="StoreLocator.WebUI/Models/SearchParameters.cs" Line="1" Column="1" />
+      <File FileName="StoreLocator.WebUI/Models/ListOfStores.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="StoreLocator.WebUI" expanded="True">
+            <Node name="Content" expanded="True" />
+            <Node name="Controllers" expanded="True" />
+            <Node name="Extensions" expanded="True" />
+            <Node name="Models" expanded="True">
+              <Node name="StoreSearchResult.cs" selected="True" />
+            </Node>
+            <Node name="Views" expanded="True">
+              <Node name="Home" expanded="True" />
+            </Node>
+            <Node name="Global.asax" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
