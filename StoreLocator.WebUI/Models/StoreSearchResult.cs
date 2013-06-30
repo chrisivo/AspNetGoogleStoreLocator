@@ -25,6 +25,7 @@ namespace StoreLocator.WebUI.Models
     [XmlAttribute("distance", typeof(double))]
     public double Distance { get; private set; }
 
+    // A new constructor required by the SearchForStores static method
     private StoreSearchResult(StoreLocation result, SearchParameters searchParams)
     {
       this.StoreAddress = result.StoreAddress;

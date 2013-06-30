@@ -65,15 +65,6 @@ namespace StoreLocator.WebUI.Controllers
       });
 
       return stores;
-//			return new[]
-//			{
-//				new StoreLocation { StoreName = "Frankie Johnnie & Luigo Too", StoreAddress = "939 W El Camino Real, Mountain View, CA", Latitude = 37.386339, Longitude = -122.085823 },
-//				new StoreLocation { StoreName = "Amici's East Coast Pizzeria", StoreAddress = "790 Castro St, Mountain View, CA", Latitude = 37.38714, Longitude = -122.083235 },
-//				new StoreLocation { StoreName = "Kapp's Pizza Bar & Grill", StoreAddress = "191 Castro St, Mountain View, CA", Latitude = 37.393885, Longitude = -122.078916 },
-//				new StoreLocation { StoreName = "Round Table Pizza: Mountain View", StoreAddress = "570 N Shoreline Blvd, Mountain View, CA", Latitude = 37.402653, Longitude = -122.079354 },
-//				new StoreLocation { StoreName = "Tony & Alba's Pizza & Pasta", StoreAddress = "619 Escuela Ave, Mountain View, CA", Latitude = 37.394011, Longitude = -122.095528 },
-//				new StoreLocation { StoreName = "Oregano's Wood-Fired Pizza", StoreAddress = "4546 El Camino Real, Los Altos, CA", Latitude=  37.401724,Longitude = -122.114646 }
-//			}.ToList();
 		}
 	}
 }
