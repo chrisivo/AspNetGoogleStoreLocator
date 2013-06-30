@@ -56,7 +56,7 @@ namespace StoreLocator.WebUI.Controllers
 
 		private List<StoreLocation> obtainStoreData()
 		{
-        var stores = HttpRuntime.Cache.GetOrStore<List<StoreLocation>>("stores", () => {
+      var stores = HttpRuntime.Cache.GetOrStore<List<StoreLocation>>("stores", () => {
         var serial = new XmlSerializer(typeof(ListOfStores<StoreLocation>));
         var path = Server.MapPath("~/Content/siteMarkers.xml");
         var reader = new StreamReader(path);
