@@ -3,17 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Serialization;
+using StoreLocator.WebUI.Extensions;
 
 namespace StoreLocator.WebUI.Models
 {
-  public static class DoubleExtensions
-  {
-    public static double ToRadians(this double angle)
-    {
-      return Math.PI * angle / 180.0;
-    }
-  }
-
   [XmlType("marker")]
 	public class StoreSearchResult : StoreLocation
   {
